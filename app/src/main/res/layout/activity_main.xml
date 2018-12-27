@@ -26,7 +26,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="192.168.4.1"/>
+                android:text="192.168.4.1" />
         </LinearLayout>
 
         <LinearLayout
@@ -45,7 +45,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:text="5000"/>
+                android:text="5000" />
         </LinearLayout>
 
     </LinearLayout>
@@ -60,26 +60,15 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
-        android:background="#EE0000">
+        android:background="#EE0000"
+        android:padding="5dp">
 
-
-        <Button
-            android:id="@+id/btn_red_on"
+        <ImageView
+            android:id="@+id/btn_red"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="80dp"
             android:layout_centerInParent="true"
-            android:text="打开"/>
-
-        <Button
-            android:id="@+id/btn_red_off"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="80dp"
-            android:text="关闭"/>
+            android:src="@drawable/off_not_receive_ok" />
 
     </RelativeLayout>
 
@@ -87,54 +76,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:padding="5dp"
-        android:background="#EEEE00">
+        android:background="#EEEE00"
+        android:padding="5dp">
 
 
-        <Button
-            android:id="@+id/btn_yellow_on"
+        <ImageView
+            android:id="@+id/btn_yellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="80dp"
-            android:text="打开"/>
-
-        <Button
-            android:id="@+id/btn_yellow_off"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="80dp"
-            android:text="关闭"/>
+            android:layout_centerInParent="true"
+            android:src="@drawable/off_not_receive_ok" />
 
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="5dp"
         android:layout_marginTop="10dp"
-        android:background="#7B68EE">
+        android:background="#7B68EE"
+        android:padding="5dp">
 
-
-        <Button
-            android:id="@+id/btn_blue_on"
+        <ImageView
+            android:id="@+id/btn_blue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="80dp"
-            android:text="打开"/>
-
-        <Button
-            android:id="@+id/btn_blue_off"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="80dp"
-            android:text="关闭"/>
+            android:layout_centerInParent="true"
+            android:src="@drawable/off_not_receive_ok"/>
 
     </RelativeLayout>
-
 
 
 </LinearLayout>
